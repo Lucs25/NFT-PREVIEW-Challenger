@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,300;0,600;1,800&display=swap");
+
+:root {
+  --primary-color: hsl(215, 51%, 70%);
+  --etherium: hsl(178, 100%, 50%);
+  --main-BG: hsl(217, 54%, 11%);
+  --card-BG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --title: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  background: var(--main-BG);
+}
+
+.container {
+  display: flex;
+}
+
+div {
+  width: 300px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.equilibrium img {
+  display: block;
+  border-radius: 8px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  max-width: 350px;
+  padding: 20px 5px;
+  border-radius: 16px;
+  background: var(--card-BG);
+  color: var(--title);
+}
+
+section * {
+  background: var(--card-BG);
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+h1,
+h2,
+p {
+  margin: 10px 0px;
+}
+
+h2,
+p {
+  font-size: 0.875rem;
+}
+
+.line {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 20px;
+}
+
+.ethereum-info {
+  color: var(--etherium);
+}
+
+.ethereum-info img,
+.clock-info img {
+  margin-right: 5px;
+}
+
+.clock-info {
+  color: var(--primary-color);
+  justify-content: end;
+}
+
+.creator-info {
+  align-items: center;
+  padding: 20px 10px 10px 0px;
+  color: var(--primary-color);
+}
+
+.creator-info img {
+  margin-right: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--title);
+}
+
+.creator-info span {
+  color: var(--title);
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
